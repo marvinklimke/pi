@@ -7,13 +7,13 @@ else
 NAME = main.out
 endif
 
-.PHONY: clean
-
 $(NAME): main.cpp
 	$(CC) $(CFLAGS) -o $(NAME) main.cpp
 
 clean:
-	rm -f *.obj $(NAME)
+	rm -f $(NAME)
 
-test:
+test: $(NAME)
 	./$(NAME)
+
+.PHONY: clean
