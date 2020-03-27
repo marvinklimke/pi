@@ -1,0 +1,7 @@
+# Binaries
+*.exe
+*.obj
+*.out
+
+# Visual Studio
+.vs
