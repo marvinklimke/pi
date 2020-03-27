@@ -26,7 +26,7 @@ int main(int argc, char **argv)
 	total /= num_steps;
 
 	auto finish = chrono::steady_clock::now();
-	auto duration = chrono::duration_cast<chrono::duration<double>>(finish - start);
+	chrono::duration<double> duration = finish - start;
 
 	cout.precision(17);
 	cout << "==> pi = " << total << "\n";
