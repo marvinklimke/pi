@@ -27,7 +27,7 @@ int main(int argc, char **argv)
 		num_threads = stoul(argv[2]);
 	}
 	if (argc > 1) {
-		num_steps = stoull(argv[1]);
+		num_steps = stoul(argv[1]);
 	}
 
 	cout << "Calculating pi using " << num_threads << " threads in " << num_steps << " steps..." << endl;

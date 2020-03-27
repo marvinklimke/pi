@@ -11,7 +11,7 @@ int main(int argc, char **argv)
 {
 	size_t num_steps = 1000000;
 	if (argc > 1) {
-		num_steps = stoull(argv[1]);
+		num_steps = stoul(argv[1]);
 	}
 
 	cout << "Calculating pi in " << num_steps << " steps..." << endl;
