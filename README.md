@@ -13,7 +13,7 @@ value of pi has the benefit of being easily understood and verified.
 
 ## Requirements
 
-The C++ code should be runnable on any system with a C++11 compiler. 
+The C++ code should be runnable on any system with a C++11 compiler.
 
 It was tested with
 
