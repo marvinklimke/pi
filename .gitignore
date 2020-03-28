@@ -1,7 +1,9 @@
 # Binaries
+*.class
 *.exe
 *.obj
 *.out
 
-# Visual Studio
+# Visual Studio (Code)
 .vs
+.vscode
