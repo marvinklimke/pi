@@ -1,4 +1,7 @@
+// Calculate the value of pi using a sequential approach in Java
+
 import java.time.*;
+
 
 public class Main {
 
