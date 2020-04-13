@@ -4,6 +4,9 @@
 *.obj
 *.out
 
+# Debugging
+*.pdb
+
 # Visual Studio (Code)
 .vs
 .vscode
