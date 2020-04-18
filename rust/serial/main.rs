@@ -7,7 +7,7 @@ use std::time::SystemTime;
 fn main() {
     let args: Vec<String> = env::args().collect();
 
-    let num_steps : u64 = if args.len() > 1 { args[1].parse().unwrap() } else { 1000000 };
+    let num_steps: usize = if args.len() > 1 { args[1].parse().unwrap() } else { 1000000 };
 
     println!("Calculating pi in {} steps...", num_steps);
 
